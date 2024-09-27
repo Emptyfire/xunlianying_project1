@@ -1,0 +1,10 @@
+{
+   "python.pythonPath": "venv/bin/python", // 指定 Python 解释器路径
+   "python.linting.enabled": true,         // 启用代码检查
+   "python.linting.flake8Enabled": true,   // 启用 Flake8
+   "editor.formatOnSave": true,            // 保存时自动格式化代码
+   "files.exclude": {
+       "**/__pycache__": true,            // 忽略 __pycache__ 文件夹
+       "**/.venv": true                  // 忽略虚拟环境文件夹
+   }
+}
