@@ -1,0 +1,396 @@
+{
+    "config": {
+        "update_multi": true
+    },
+    "i18n_elements": {
+        "zh_cn": [
+            {
+                "tag": "img",
+                "img_key": "img_v3_02fh_1f7ad0d2-1a7c-472e-9e1b-001d56e862fg",
+                "preview": true,
+                "transparent": false,
+                "scale_type": "fit_horizontal",
+                "alt": {
+                    "tag": "plain_text",
+                    "content": ""
+                }
+            },
+            {
+                "tag": "markdown",
+                "content": "${staplefood}${staplefood_amount}  ${meet}${meet_amount}  ${meet2}${meet2_amount} ${veggie}",
+                "text_align": "center",
+                "text_size": "heading"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "markdown",
+                "content": "**今日营养素配额情况**",
+                "text_align": "center",
+                "text_size": "heading"
+            },
+            {
+                "tag": "column_set",
+                "flex_mode": "none",
+                "horizontal_spacing": "8px",
+                "horizontal_align": "left",
+                "columns": [
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日碳水**\n${carbohydrates_today}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日蛋白质**\n${protein_today}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日脂肪**\n${axunge_today}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    }
+                ],
+                "margin": "16px 0px 0px 0px"
+            },
+            {
+                "tag": "column_set",
+                "flex_mode": "none",
+                "horizontal_spacing": "8px",
+                "horizontal_align": "left",
+                "columns": [
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐碳水**\n${carbohydrates}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐蛋白质**\n${protein}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐脂肪**\n${axunge}",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    }
+                ],
+                "margin": "16px 0px 0px 0px"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "markdown",
+                "content": "**自评**",
+                "text_align": "center",
+                "text_size": "normal"
+            },
+            {
+                "tag": "markdown",
+                "content": "${selfevaluation}",
+                "text_align": "left",
+                "text_size": "notation"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "column_set",
+                "flex_mode": "none",
+                "horizontal_spacing": "default",
+                "background_style": "default",
+                "columns": [
+                    {
+                        "tag": "column",
+                        "elements": [
+                            {
+                                "tag": "div",
+                                "text": {
+                                    "tag": "plain_text",
+                                    "content": "${staff}",
+                                    "text_size": "normal",
+                                    "text_align": "center",
+                                    "text_color": "default"
+                                }
+                            }
+                        ],
+                        "width": "weighted",
+                        "weight": 1
+                    }
+                ]
+            },
+            {
+                "tag": "markdown",
+                "content": "",
+                "text_align": "left",
+                "text_size": "normal"
+            }
+        ],
+        "en_us": [
+            {
+                "tag": "img",
+                "img_key": "img_v3_02fh_1f7ad0d2-1a7c-472e-9e1b-001d56e862fg",
+                "preview": true,
+                "transparent": false,
+                "scale_type": "fit_horizontal",
+                "alt": {
+                    "tag": "plain_text",
+                    "content": ""
+                }
+            },
+            {
+                "tag": "markdown",
+                "content": "米饭300g+牛肉300g+大白菜",
+                "text_align": "center",
+                "text_size": "heading"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "markdown",
+                "content": "**今日营养素配额情况**",
+                "text_align": "center",
+                "text_size": "heading"
+            },
+            {
+                "tag": "column_set",
+                "flex_mode": "none",
+                "horizontal_spacing": "15px",
+                "horizontal_align": "left",
+                "columns": [
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐碳水**\n150g/150g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐蛋白质**\n40g/50g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**本餐脂肪**\n20g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    }
+                ],
+                "margin": "16px 0px 0px 0px"
+            },
+            {
+                "tag": "column_set",
+                "flex_mode": "none",
+                "horizontal_spacing": "8px",
+                "horizontal_align": "left",
+                "columns": [
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日碳水**\n150g/300g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日蛋白质**\n40g/120g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    },
+                    {
+                        "tag": "column",
+                        "width": "weighted",
+                        "vertical_align": "top",
+                        "vertical_spacing": "8px",
+                        "elements": [
+                            {
+                                "tag": "markdown",
+                                "content": "**今日脂肪**\n20g/60g",
+                                "text_align": "center",
+                                "text_size": "normal"
+                            }
+                        ],
+                        "weight": 1
+                    }
+                ],
+                "margin": "16px 0px 0px 0px"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "markdown",
+                "content": "**自评**",
+                "text_align": "center",
+                "text_size": "normal"
+            },
+            {
+                "tag": "markdown",
+                "content": "说实话这餐不太行的，里面还有禁忌食物牛肉丸，但是主要是为了空冰箱，把之前冰箱里的乱七八糟的东西吃一吃，所以也算没什么办法的事情",
+                "text_align": "center",
+                "text_size": "notation"
+            },
+            {
+                "tag": "hr"
+            },
+            {
+                "tag": "markdown",
+                "content": "@填表人@教练员@监督员",
+                "text_align": "center",
+                "text_size": "normal"
+            }
+        ]
+    },
+    "i18n_header": {
+        "zh_cn": {
+            "title": {
+                "tag": "plain_text",
+                "content": "group_name/name/tree/record"
+            },
+            "subtitle": {
+                "tag": "plain_text",
+                "content": "${Date}"
+            },
+            "text_tag_list": [
+                {
+                    "tag": "text_tag",
+                    "text": {
+                        "tag": "plain_text",
+                        "content": "测试标签"
+                    },
+                    "color": "neutral"
+                }
+            ],
+            "template": "red"
+        },
+        "en_us": {
+            "title": {
+                "tag": "plain_text",
+                "content": "“A组/B组/C组”+“XXX”+“早餐/午餐/晚餐/加餐”+“记录”"
+            },
+            "subtitle": {
+                "tag": "plain_text",
+                "content": "关联到：表单填写的登记日期"
+            },
+            "text_tag_list": [
+                {
+                    "tag": "text_tag",
+                    "text": {
+                        "tag": "plain_text",
+                        "content": "测试标签"
+                    },
+                    "color": "neutral"
+                }
+            ],
+            "template": "red"
+        }
+    }
+}

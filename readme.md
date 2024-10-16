@@ -4,14 +4,15 @@
 
 ### 已完成项
 
-现在于飞书的开发者平台中,选择使用长连接模式,建立连接后可正常接收文本变更事件,能够返回变更后的 json
+程序整体重构,将关键操作函数化,并通过函数调用来实现各个部分的功能
+已实现的函数
+发送消息 usend_message()
+获取表记录 uget_record()
+获取应用令牌 uget_tenant_access_token()
+发送请求 response_structure()
+获取本地json数据 get_json(data)
+本地json卡片模板 card_config.py
 
-> 回传 json 已加密,需要进行解码,解码参阅飞书教程
-> https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/event-subscription-guide/callback-subscription/receive-and-handle-callbacks
-
-### 路由解释
-
-- http://127.0.0.1:5000/ 为初始欢迎页面
-- http://127.0.0.1:5000/event 为启动飞书 sdk 的长连接客户端
-
-启动本地 flask 客户端后,访问指定路径即可
+### 未完成项
+卡片变量与表格数据绑定
+监听表事件变更并执行对应操作
